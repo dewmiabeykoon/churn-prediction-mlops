@@ -2,8 +2,6 @@
 
 An end-to-end **Machine Learning Operations (MLOps)** project that predicts customer churn for telecom and subscription businesses. The pipeline covers data ingestion, validation, preprocessing, model training, evaluation, experiment tracking, workflow orchestration, and real-time inference via a REST API.
 
-[GitHub](https://github.com/dewmiabeykoon/churn-prediction-mlops)
-
 ---
 
 ## Overview
@@ -100,6 +98,13 @@ churn-prediction-mlops/
 │   └── register_model.py      # Register model in MLflow
 ├── dags/
 │   └── churn_dag.py           # Airflow DAG for pipeline automation
+├── docs/
+│   └── screenshots/
+│        ├── airflow_dag_graph.png
+│        ├── confusion_matrix.png
+│        ├── fastapi_predict_full.png
+│        ├── mlflow_experiment_eval.png
+│        └── roc_curve.png
 ├── tests/
 │   └── dags/
 │       └── test_churn_dag.py  # DAG integrity tests
